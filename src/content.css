@@ -1,0 +1,20 @@
+section{
+    width: 60%;
+    margin: auto auto;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.place-image{
+    width: 150px;
+    position: relative;
+}
+.image-credit{
+    position: absolute;
+    left: 50px;
+    bottom: 5px;
+    color: red;
+}

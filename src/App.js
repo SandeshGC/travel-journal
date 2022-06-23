@@ -1,8 +1,12 @@
+import Header from "./components/Header";
+import Content from "./components/Content";
 
 function App() {
+  
   return (
     <>
-    <h1>Sandesh GC</h1>
+    <Header />
+    <Content />
     </>
   );
 }
