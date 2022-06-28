@@ -1,12 +1,15 @@
-*{
+* {
   font-family: Inter, sans-serif;
 }
-body{
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #E5E5E5;
 }
-.header{
+
+.header {
   background-color: #F55A5A;
   padding: 10px;
   display: flex;
@@ -14,6 +17,88 @@ body{
   color: white;
   justify-content: center;
 }
-.header > .earth-icon {
+
+.header>.earth-icon {
   padding: 7px;
+}
+
+/*content*/
+section {
+  width: 50%;
+  margin: auto auto;
+  background-color: white;
+}
+
+/*each card containing photo, title, description*/
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 60px;
+}
+.place-img {
+  max-width: 250px;
+  min-width: 200px;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.fa-location-dot {
+  padding-right: 5px;
+  color: #F55A5A;
+}
+
+.location {
+  text-transform: uppercase;
+  font-size: 0.95em;
+  padding-right: 10px;
+  letter-spacing: 2px;
+}
+
+.gmaps-url {
+  font-size: 12px;
+  font-weight: 400;
+  color: #918E9B;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.visited-date {
+  font-weight: 600;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.end-of-card {
+  background-color: #918E9B;
+  height: 1px;
+  width: 90%;
+  border: none;
+}
+
+/*footer*/
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media-links{
+  display: flex;
+  list-style: none;
+}
+.social-media-icon {
+  padding:0 10px;
 }
