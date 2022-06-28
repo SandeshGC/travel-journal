@@ -37,12 +37,14 @@ section {
   margin: auto;
   padding: 60px;
 }
+
 .place-img {
   max-width: 250px;
   min-width: 200px;
   border-radius: 5px;
   margin-right: 25px;
 }
+
 .location-container {
   display: flex;
   align-items: center;
@@ -95,10 +97,11 @@ section {
   align-items: center;
 }
 
-.social-media-links{
+.social-media-links {
   display: flex;
   list-style: none;
 }
+
 .social-media-icon {
-  padding:0 10px;
+  padding: 0 10px;
 }
