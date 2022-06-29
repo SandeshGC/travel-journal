@@ -1,5 +1,6 @@
 export default function Card(props) {
   const goToGoogleMaps = () => {
+    //linking to google maps
     window.open(props.item.googleMapsUrl, "_blank");
   };
   return (
@@ -10,7 +11,6 @@ export default function Card(props) {
           className="place-img link"
           alt="A Tourist Destination in Nepal visited by Sandesh GC"
         />
-        {/* <div className="image-credit">Images from Unsplash.com</div> */}
       </div>
       <div className="card-details">
         <div>

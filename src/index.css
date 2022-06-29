@@ -32,17 +32,25 @@ section {
 /*each card containing photo, title, description*/
 .card {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin: auto;
   padding: 60px;
+
+}
+
+.place-img-container {
+  width: 400px;
+  height: 250px;
+  margin-right: 25px;
+  /* border: 2px solid red; */
 }
 
 .place-img {
-  max-width: 250px;
-  min-width: 200px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
-  margin-right: 25px;
 }
 
 .location-container {
