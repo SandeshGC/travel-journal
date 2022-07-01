@@ -27,32 +27,41 @@ section {
   width: 50%;
   margin: auto auto;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  gap: 20px;
 }
-
+/*div that contains all the cards*/
 /*each card containing photo, title, description*/
 .card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   margin: auto;
-  padding: 60px;
-
+  /* padding: 20px 0; */
 }
 
 .place-img-container {
-  width: 400px;
-  height: 250px;
-  margin-right: 25px;
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
   /* border: 2px solid red; */
 }
 
 .place-img {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  height: 250px;
+  width: 180px;
   border-radius: 5px;
 }
-
+.card-details{
+  width: 50%;
+}
 .location-container {
   display: flex;
   align-items: center;
