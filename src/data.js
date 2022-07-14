@@ -49,5 +49,15 @@ export default [
       "Swayambhu is an ancient religious complex atop a hill in the Kathmandu Valley, west of Kathmandu city. The Tibetan name for the site means 'Sublime Trees', for the many varieties of trees found on the hill. However, Shing.kun may be of the local Nepal Bhasa name for the complex, Swayambhu, meaning 'self-sprung'.",
     imageUrl: "https://source.unsplash.com/uA3cYm0mN_s",
   },
+  {
+    title: "Supa Deurali Temple",
+    location: "Arghakhanchi, Nepal",
+    googleMapsUrl: "https://goo.gl/maps/9p9r1uWdd79Khnb27",
+    startDate: "28 June, 2022",
+    endDate: "30 June, 2022",
+    description:
+      "Swayambhu is an ancient religious complex atop a hill in the Kathmandu Valley, west of Kathmandu city. The Tibetan name for the site means 'Sublime Trees', for the many varieties of trees found on the hill. However, Shing.kun may be of the local Nepal Bhasa name for the complex, Swayambhu, meaning 'self-sprung'.",
+    imageUrl: "https://source.unsplash.com/uA3cYm0mN_s",
+  },
   
 ];

@@ -23,6 +23,7 @@ export default function Footer() {
         </ul>
         
       </div>
+      <div><a target="_blank" href="https://icons8.com/icon/35080/travel-diary">Travel Diary</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
     </div>
   );
 }
