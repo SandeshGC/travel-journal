@@ -8,7 +8,7 @@ export default function Footer() {
     console.log(goToGithub)
   return (
     <div className="footer">
-      <p className="copyright">&copy; SandeshGC All Rights Reserved</p>
+      <p className="copyright">&copy; SandeshGC 2022 All Rights Reserved</p>
       <div>
         <ul className="social-media-links link">
           <li className="social-media-link" id="fb-icon" onClick={goToFacebook}>

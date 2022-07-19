@@ -13,6 +13,7 @@ export default function Card(props) {
         />
       </div>
       <div className="card-details">
+      {/*div that contains the items on the right side of image*/}
         <div>
           <i class="fa-solid fa-location-dot"></i>
           <span className="location">{props.item.location}</span>
